@@ -1,0 +1,13 @@
+{
+  "name": "use-custom-compare-effect",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "flow": "flow"
+  },
+  "author": "Amirali Esmaeili <esmailiamirali@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "flow-bin": "^0.114.0"
+  }
+}
