@@ -1,6 +1,6 @@
 {
   "name": "use-custom-compare-effect",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "lib/index.js",
   "scripts": {
     "flow": "flow",
