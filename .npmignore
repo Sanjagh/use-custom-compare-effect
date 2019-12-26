@@ -1,0 +1,8 @@
+__tests__/
+src/
+flow-typed/
+.vim/
+.flowconfig
+.gitignore
+.prettierrc.yml
+babel.config.js
