@@ -6,3 +6,5 @@ flow-typed/
 .gitignore
 .prettierrc.yml
 babel.config.js
+npm-debug.log
+yarn-error.log
