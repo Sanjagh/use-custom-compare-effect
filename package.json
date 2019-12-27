@@ -1,6 +1,6 @@
 {
   "name": "use-custom-compare-effect",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "useEffect hook which takes a comparison function",
   "main": "lib/index.js",
   "scripts": {
