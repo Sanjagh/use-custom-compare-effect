@@ -6,7 +6,7 @@ type MaybeCleanUpFn = void | (() => void);
 function useCustomCompareMemo<T>(value: T, equal: (T, T) => boolean): T {
   const ref = useRef<T>(value);
 
-  if (!ref.current || !equal(value, ref.current)) {
+  if (!equal(value, ref.current)) {
     ref.current = value;
   }
 
