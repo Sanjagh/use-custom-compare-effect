@@ -1,6 +1,7 @@
 {
   "name": "use-custom-compare-effect",
   "version": "0.0.3",
+  "description": "useEffect hook which takes a comparison function",
   "main": "lib/index.js",
   "scripts": {
     "flow": "flow",
@@ -12,6 +13,13 @@
     "build": "npm run clean && npm run babel && npm run gen-types",
     "prepack": "npm run check && npm run build"
   },
+  "homepage": "https://github.com/sanjagh/use-custom-compare-effect#readme",
+  "repository": "github:sanjagh/use-custom-compare-effect",
+  "keywords": [
+    "react",
+    "react-hooks",
+    "useEffect"
+  ],
   "author": "Amirali Esmaeili <esmailiamirali@gmail.com>",
   "license": "MIT",
   "peerDependencies": {
