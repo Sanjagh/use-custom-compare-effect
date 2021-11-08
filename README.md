@@ -18,6 +18,24 @@ npm install use-custom-compare-effect
 yarn add use-custom-compare-effect
 ```
 
+# How to use
+You can provide your custom compare function as the third params like below:
+```js
+import useCustomCompareEffect from 'use-custom-compare-effect';
+
+// ... usage
+useCustomCompareEffect(() => {
+  // ... your usual callback here
+  // do things like fetch network request or the like
+  // the second params dont have to be an array, it can be object, number, etc
+}, {a: 'things'}, (a, b) => {
+  // and here is your custom compare function
+  // you can check difference between old(a variable) and new(b variable)
+  // in here like so
+  return a.a === b.a;
+})
+```
+
 ## License
 
 MIT
